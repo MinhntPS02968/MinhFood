@@ -17,11 +17,101 @@ body{
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
   overflow-x: hidden;
 }
+
+@media (max-width: 769px) {
+  .baner {
+    margin-top: 10px !important;
+    .caption-opsition {
+      bottom: 10% !important;
+    }
+  }
+  .slide-height{
+    height: 300px !important;
+  }
+  .shop-cat-box{
+    h3{
+      font-size: 1.3rem;
+    }
+    a{
+      h2{
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .cart-mobi{
+    display: block !important;
+  }
+  .cart{
+    display: none;
+  }
+  .carousel{
+    margin-top: 5px;
+  }
+  .home-promotion {
+    .promo-product{
+      .promo1 {
+        margin: 0px !important;
+        .promo-info{
+          display: none !important;
+        }
+      }
+      .promo2{
+        display: none !important;
+      }
+      .promo3{
+        display: none !important;
+      }
+    }
+  }
+  .product-header{
+    .btn-slide-control{
+      width: 30px !important;
+      height: 30px !important;
+    }
+  }
+  .customer-review-mobi{
+    display: block !important;
+  }
+  .customer-review{
+    display: none;
+  }
+  .home-promotion {
+    .promotion-tittle{
+      h2 {
+        font-size: 30px !important;
+      }
+      h3 {
+        font-size: 18px !important;
+      }
+    }
+  }
+  .ft-album{
+    display: none;
+  }
+}
+@media (max-width: 600px){
+  .shop-cat-box{
+    h3{
+      font-size: 13px !important;
+    }
+    a{
+      h2{
+        font-size: 15px !important;
+      }
+    }
+  }
+}
+.customer-review-mobi{
+  display: none;
+}
 .slide-height{
-  max-height: 820px;
+  height: 820px;
 }
 .btn-search{
   margin-top: -36px;
+}
+.cart-mobi{
+  display: none;
 }
 #button {
   display: inline-block;
@@ -55,10 +145,6 @@ body{
   opacity: 1;
   visibility: visible;
 }
-
-@media only screen and (max-width: 600px) {
-  mix-height: 150px;
-}
 a:hover{
   text-decoration: none;
 }
@@ -91,6 +177,7 @@ header{
   }
   .main-menu{
     background: white;
+    .dropdown-hover-product:hover .dropdown-menu{ display: block; }
     .navbar{
       .navbar-nav{
         li{
@@ -107,7 +194,6 @@ header{
             display: block;
             position: relative;
             border-bottom: 4px solid white;
-            font-weight: 700;
           }
           a:hover{
             border-bottom: 4px solid $color-green;
@@ -136,9 +222,11 @@ header{
                         background: $color-black;
                         color: #fff;
                         border:0;
+                        font-size: 1rem;
                         padding: 5px 0 5px 15px;
                         text-transform: none;
-                        line-height: 30px;
+                        line-height: 25px;
+                        font-weight: 300;
                       }
                       a:hover{
                         color: $color-green;
@@ -243,7 +331,10 @@ header{
 .card {
   background-color: #ffffff;
 }
-
+.dropdown-menu-custom {
+  width: 23rem !important;
+  left: -125px !important;
+}
 .tab-card {
   border:1px solid #eee;
   color: $color-black;
@@ -333,10 +424,11 @@ header{
       bottom: 20%;
       position: absolute;
       display: block;
-      color: $color-black;
+      color: white;
       z-index: 9999;
       margin-top: -20px;
       background: $color-green;
+      font-weight: 200;
     }
     button:hover{
       color: white;
@@ -542,6 +634,7 @@ header{
 .news-item{
   .news-content{
     color: $news-text-color;
+    z-index: 9999;
     .comt-count{
       margin: 0 0 18px;
     }
@@ -571,7 +664,9 @@ header{
     }
   }
   .news-content:hover{
-    box-shadow:3px 3px 5px 6px #ccc;;
+    box-shadow:0 0 10px #ccc;
+    margin-top: -5px;
+    transition: all ease-in-out .3s;
   }
 }
 .news-header{
@@ -672,5 +767,4 @@ footer{
       padding: 15px 0 0;
     }
   }
-
 }

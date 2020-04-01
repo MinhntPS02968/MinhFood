@@ -11,11 +11,71 @@ body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif;
   overflow-x: hidden; }
 
+@media (max-width: 769px) {
+  .baner {
+    margin-top: 10px !important; }
+    .baner .caption-opsition {
+      bottom: 10% !important; }
+
+  .slide-height, .baner img {
+    height: 300px !important; }
+
+  .shop-cat-box h3 {
+    font-size: 1.3rem; }
+  .shop-cat-box a h2 {
+    font-size: 1.5rem; }
+
+  .cart-mobi {
+    display: block !important; }
+
+  .cart {
+    display: none; }
+
+  .carousel {
+    margin-top: 5px; }
+
+  .home-promotion .promo-product .promo1 {
+    margin: 0px !important; }
+    .home-promotion .promo-product .promo1 .promo-info {
+      display: none !important; }
+  .home-promotion .promo-product .promo2 {
+    display: none !important; }
+  .home-promotion .promo-product .promo3 {
+    display: none !important; }
+
+  .product-header .btn-slide-control, .news-header .btn-slide-control {
+    width: 30px !important;
+    height: 30px !important; }
+
+  .customer-review-mobi {
+    display: block !important; }
+
+  .customer-review {
+    display: none; }
+
+  .home-promotion .promotion-tittle h2 {
+    font-size: 30px !important; }
+  .home-promotion .promotion-tittle h3 {
+    font-size: 18px !important; }
+
+  .ft-album {
+    display: none; } }
+@media (max-width: 600px) {
+  .shop-cat-box h3 {
+    font-size: 13px !important; }
+  .shop-cat-box a h2 {
+    font-size: 15px !important; } }
+.customer-review-mobi {
+  display: none; }
+
 .slide-height, .baner img {
-  max-height: 820px; }
+  height: 820px; }
 
 .btn-search {
   margin-top: -36px; }
+
+.cart-mobi {
+  display: none; }
 
 #button {
   display: inline-block;
@@ -47,8 +107,6 @@ body {
   opacity: 1;
   visibility: visible; }
 
-@media only screen and (max-width: 600px) {
-  mix-height: 150px; }
 a:hover {
   text-decoration: none; }
 
@@ -72,6 +130,8 @@ header .topbar {
       margin: 0; }
 header .main-menu {
   background: white; }
+  header .main-menu .dropdown-hover-product:hover .dropdown-menu {
+    display: block; }
   header .main-menu .navbar .navbar-nav li {
     border-bottom: 4px solid white; }
     header .main-menu .navbar .navbar-nav li a {
@@ -85,8 +145,7 @@ header .main-menu {
       line-height: 86px;
       display: block;
       position: relative;
-      border-bottom: 4px solid white;
-      font-weight: 700; }
+      border-bottom: 4px solid white; }
     header .main-menu .navbar .navbar-nav li a:hover {
       border-bottom: 4px solid #80B435;
       transition: all 0.3s ease-in-out 0s; }
@@ -108,9 +167,11 @@ header .main-menu {
           background: #212121;
           color: #fff;
           border: 0;
+          font-size: 1rem;
           padding: 5px 0 5px 15px;
           text-transform: none;
-          line-height: 30px; }
+          line-height: 25px;
+          font-weight: 300; }
         header .main-menu .navbar .navbar-nav .nav-item .menu-product ul li .produc-clm li a:hover {
           color: #80B435; }
     header .main-menu .navbar .navbar-nav .nav-item .active {
@@ -186,6 +247,10 @@ header .main-menu {
 .card {
   background-color: #ffffff; }
 
+.dropdown-menu-custom {
+  width: 23rem !important;
+  left: -125px !important; }
+
 .tab-card {
   border: 1px solid #eee;
   color: #212121; }
@@ -258,10 +323,11 @@ header .main-menu {
       bottom: 20%;
       position: absolute;
       display: block;
-      color: #212121;
+      color: white;
       z-index: 9999;
       margin-top: -20px;
-      background: #80B435; }
+      background: #80B435;
+      font-weight: 200; }
     .product-item .product-buy button:hover {
       color: white;
       background: #212121; }
@@ -410,7 +476,8 @@ header .main-menu {
     bottom: -70%; }
 
 .news-item .news-content {
-  color: #888; }
+  color: #888;
+  z-index: 9999; }
   .news-item .news-content .comt-count {
     margin: 0 0 18px; }
   .news-item .news-content .news-tittle {
@@ -429,7 +496,9 @@ header .main-menu {
   .news-item .news-content .comt-show a:hover {
     text-decoration: underline; }
 .news-item .news-content:hover {
-  box-shadow: 3px 3px 5px 6px #ccc; }
+  box-shadow: 0 0 10px #ccc;
+  margin-top: -5px;
+  transition: all ease-in-out .3s; }
 
 .news-header ul li a {
   color: #212121 !important; }
