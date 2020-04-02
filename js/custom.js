@@ -6,4 +6,3 @@ $(window).scroll(function() {
         fixtop.classList.add('fixed-top');
     }
 });
-

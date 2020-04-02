@@ -1,200 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link href="css/all.css" type="text/css" rel="stylesheet"/>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/jquery.gallery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/all.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/custom.js"></script>
-    <title>Rau Hữu Cơ</title>
-</head>
-<body>
-<header id="head" class="fixed-top">
-    <div class="topbar">
-        <div class="container">
-            <div class="topbar-inner">
-                <div class="row m-0">
-                    <div class="col-md-10 col-6">
-                        <p>Support 24/7 : (+86) 6 888 888</p>
-                    </div>
-                    <div class="col-md-2 col-6">
-                        <ul class="list-inline account">
-                            <li><a href="javascript:void(0)">Login</a></li>
-                            <li>-</li>
-                            <li><a href="javascript:void(0)">Sign in </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="main-menu">
-        <div class="container text-center font-weight-bold">
-            <nav class="navbar navbar-expand-xl navbar-light pb-0">
-                <div class="col-md-2">
-                    <a class="navbar-brand" href="#">
-                        <img src="images/logo.png"/>
-                    </a>
-                </div>
-                <div class="col-md-8">
-                    <!--menu-->
-                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                        <ul class="navbar-nav text-center">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">HOME <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item dropdown dropdown-hover-product">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">
-                                    PRODUCT
-                                </a>
-                                <div class="dropdown-menu menu-product" aria-labelledby="navbarDropdownMenuLink">
-                                    <ul class="row mx-0 p-0">
-                                        <li class="dropdown-item col-lg-3">
-                                            <ul class="p-0 produc-clm"> <h5>FOOD IMPORTS</h5>
-                                                <li><a href="javascript:void(0)">Import from USA</a></li>
-                                                <li><a href="javascript:void(0)">Import from Au</a></li>
-                                                <li><a href="javascript:void(0)">Import from Canada</a></li>
-                                                <li><a href="javascript:void(0)">Import from Korea</a></li>
-                                                <li><a href="javascript:void(0)">Import from Germani</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown-item col-lg-3">
-                                            <ul class="p-0 produc-clm"> <h5>FOOD IMPORTS</h5>
-                                                <li><a href="javascript:void(0)">Import from USA</a></li>
-                                                <li><a href="javascript:void(0)">Import from Au</a></li>
-                                                <li><a href="javascript:void(0)">Import from Canada</a></li>
-                                                <li><a href="javascript:void(0)">Import from Korea</a></li>
-                                                <li><a href="javascript:void(0)">Import from Germani</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown-item col-lg-3">
-                                            <ul class="p-0 produc-clm"> <h5>FOOD IMPORTS</h5>
-                                                <li><a href="javascript:void(0)">Import from USA</a></li>
-                                                <li><a href="javascript:void(0)">Import from Au</a></li>
-                                                <li><a href="javascript:void(0)">Import from Canada</a></li>
-                                                <li><a href="javascript:void(0)">Import from Korea</a></li>
-                                                <li><a href="javascript:void(0)">Import from Germani</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown-item col-lg-3">
-                                            <ul class="p-0 produc-clm"> <h5>FOOD IMPORTS</h5>
-                                                <li><a href="javascript:void(0)">Import from USA</a></li>
-                                                <li><a href="javascript:void(0)">Import from Au</a></li>
-                                                <li><a href="javascript:void(0)">Import from Canada</a></li>
-                                                <li><a href="javascript:void(0)">Import from Korea</a></li>
-                                                <li><a href="javascript:void(0)">Import from Germani</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#" style="overflow: hidden">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">NEWS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--search and cart-->
-                <div class="col-md-1 d-flex justify-content-center">
-                    <!-- Button trigger modal -->
-                    <a class="navbar-nav" href="javascript:void(0)" data-toggle="modal" data-target="#Search">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </div>
-                <div class="col-md-1 d-flex justify-content-center">
-                    <div class="navbar-nav dropdown">
-                        <div class="cart">
-                            <a class="nav-link dropdown-toggle pb-4" href="#" id="CartDropdown" data-toggle="dropdown"
-                            >
-                                <i class="fas fa-2x fa-shopping-cart"></i> <div class="num-cart">1</div>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-custom pt-4" aria-labelledby="CartDropdown">
-                                <div class="row mx-0">
-                                    <div class="col-lg-4">
-                                        <img src="images/product1.webp" class="w-100">
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <h5>Chanh Dây đỏ Úc</h5>
-                                        <div class="cart-price">400,000 đ</div>
-                                        <div class="cart-qty">QTY: 1</div>
-                                    </div>
-                                    <div class="col-lg-1 d-flex align-items-center">
-                                        <a href="javascript:void(0)"><i class="fas fa-times-circle"></i></a>
-                                    </div>
-                                </div>
-                                <!--nút thanh toán -->
-                                <div class="row mx-0">
-                                    <div class="col-lg-12">
-                                        <div class="row mx-0 py-3 border-top">
-                                            <div class="col-lg-6">
-                                                Tổng
-                                            </div>
-                                            <div class="col-lg-6 text-right">
-                                                400,000đ
-                                            </div>
-                                        </div>
-                                        <div class="row text-center pb-3">
-                                            <div class="col-lg-6">
-                                                <a class="btn btn-light rounded-0 px-4 border">Your Cart</a>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <a class="btn btn-success rounded-0 px-4">Payment</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="cart cart-mobi">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0)">
-                                <i class="fas fa-2x fa-shopping-cart"></i> <div class="num-cart">1</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--nút menu mobi-->
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNavDropdown" >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-    </div>
-</header>
-<!-- Modal -->
-<div class="modal fade" id="Search" tabindex="-1" role="dialog" aria-labelledby="Search" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header border-0">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form class="form-group">
-                    <input class="form-control" type="search" name="search" aria-label="Search" placeholder="Search">
-                    <button type="submit" class="btn btn-search float-right"><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<a id="button"><div class="text">Up</div></a>
-<script src="js/backtop.js"></script>
+
+<?php include 'header.php';?>
 <section>
     <div class="baner row mx-0">
         <div id="carouselExampleFade" class="carousel slide carousel-fade w-100" data-ride="carousel">
@@ -961,7 +766,7 @@
                         <span class="promo-sale">Up to 55% off</span>
                     </div>
                 </div>
-                <div class="promo promo2" style="opacity: 0">
+                <div class="promo promo2">
                     <a href="javascript:void(0)">
                         <img src="images/promotion2.png" class="w-100"/>
                     </a>
@@ -1396,128 +1201,129 @@
     </div>
 </section>
 <section class="customer-review">
-<div class="customer-review-inner">
-    <div class="container">
-        <div class="review-box-title text-center">
-            <h2>CUSTOMER REVIEWS</h2>
-            <p>We are trusted by more than 20,000 customers across the country</p>
-        </div>
-        <div class="review-box-content">
-            <div class="row">
-                <div id="customer-rw" class="carousel slide col-md-12" data-ride="carousel">
-                    <ol class="carousel-indicators customer-slide-control">
-                        <li data-target="#customer-rw" data-slide-to="0" class="active"></li>
-                        <li data-target="#customer-rw" data-slide-to="1"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+    <div class="customer-review-inner">
+        <div class="container">
+            <div class="review-box-title text-center">
+                <h2>CUSTOMER REVIEWS</h2>
+                <p>We are trusted by more than 20,000 customers across the country</p>
+            </div>
+            <div class="review-box-content">
+                <div class="row">
+                    <div id="customer-rw" class="carousel slide col-md-12" data-ride="carousel">
+                        <ol class="carousel-indicators customer-slide-control">
+                            <li data-target="#customer-rw" data-slide-to="0" class="active"></li>
+                            <li data-target="#customer-rw" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
                                         </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
+                                        </div>
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
                                         </div>
                                     </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="box-content-item">
-                                        <div class="item-content">
-                                            <div class="item-content-desc">
-                                                <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                    <div class="col-md-3">
+                                        <div class="box-content-item">
+                                            <div class="item-content">
+                                                <div class="item-content-desc">
+                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                </div>
+                                                <p class="author">Mimosa True</p>
                                             </div>
-                                            <p class="author">Mimosa True</p>
                                         </div>
-                                    </div>
-                                    <div class="box-avt">
-                                        <img src="images/avt.png" class="">
+                                        <div class="box-avt">
+                                            <img src="images/avt.png" class="">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1525,57 +1331,57 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div style="height: 120px; font-size:0px;"></div>
-        <div class="review-box-content">
-            <div class="row">
-                <div id="partner-list" class="carousel slide col-md-12" data-ride="carousel">
-                    <ol class="carousel-indicators partner-slide-control">
-                        <li data-target="#partner-list" data-slide-to="0" class="active"></li>
-                        <li data-target="#partner-list" data-slide-to="1"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
+            <div style="height: 120px; font-size:0px;"></div>
+            <div class="review-box-content">
+                <div class="row">
+                    <div id="partner-list" class="carousel slide col-md-12" data-ride="carousel">
+                        <ol class="carousel-indicators partner-slide-control">
+                            <li data-target="#partner-list" data-slide-to="0" class="active"></li>
+                            <li data-target="#partner-list" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
-                                </div>
-                                <div class="col-md-2">
-                                    <img src="images/brand_logo_1.png"/>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <img src="images/brand_logo_1.png"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1584,7 +1390,6 @@
             </div>
         </div>
     </div>
-</div>
 </section>
 <section class="customer-review customer-review-mobi">
     <div class="customer-review-inner">
@@ -1921,99 +1726,6 @@
         </div>
     </div>
 </section>
-<section class="site-newsletter">
-    <div class="container">
-        <div class="newsletter-tittle text-center">
-            <h2>SIGN UP TO RECEIVE THE NEWSLETTER</h2>
-            <p>Receive 15% discount code when you sign up</p>
-            <form method="post" name="follow">
-                <input type="email" placeholder="Your Email" name="email" id="email">
-                <input type="submit" class="btn submit-letter" value="FOLLOW">
-            </form>
-        </div>
-    </div>
-</section>
-<footer>
-    <div class="container">
-        <div class="footer-main">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="ft-box">
-                                <h3>ABOUT US</h3>
-                                <ul>
-                                    <li><strong>Address :</strong> C4 Nguyễn Cơ Thạch</li>
-                                    <li><strong>Hotline  :</strong> (+84) 3 888 888h</li>
-                                    <li><strong>Email  :</strong> hello@lifeisgood.com</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="ft-box">
-                                <h3>PROPENSITY</h3>
-                                <ul>
-                                    <li><a href="javascript:void(0)">Promotion products</a></li>
-                                    <li><a href="javascript:void(0)">Featured products</a></li>
-                                    <li><a href="javascript:void(0)">All products</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12">
-                            <div class="ft-box">
-                                <h3>TIME OPEN</h3>
-                                <ul>
-                                    <li>MONDAY - SATURDAY</a></li>
-                                    <li>10:00 AM - 5:00 PM</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="coppyright ft-boder-top col-sm-6">
-                            <copyright>Copyrights © 2016 All Rights Reserved by EngoCreative Inc</copyright>
-                        </div>
-                        <div class="payment ft-boder-top col-sm-6 text-center">
-                            <img src="images/payment.png"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ft-album">
-                    <div class="ft-box">
-                        <h3>ALBUM</h3>
-                        <div class="row">
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_1.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_2.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_3.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_4.jpg" class="w-100">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_5.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_6.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_7.jpg" class="w-100">
-                            </div>
-                            <div class="col-md-3 gallery">
-                                <img src="images/gallery_8.jpg" class="w-100">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</body>
-</html>
+
+<?php include 'footer.php';?>
+
