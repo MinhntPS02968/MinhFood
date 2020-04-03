@@ -97,13 +97,13 @@
                                 </div>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="aboutus.php" style="overflow: hidden">ABOUT US</a>
+                                <a class="nav-link" href="aboutus.php">ABOUT US</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="product.php">NEWS</a>
+                                <a class="nav-link" href="news.php">NEWS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CONTACT</a>
+                                <a class="nav-link" href="contact.php">CONTACT</a>
                             </li>
                         </ul>
                     </div>
@@ -149,7 +149,7 @@
                                         </div>
                                         <div class="row text-center pb-3">
                                             <div class="col-lg-6">
-                                                <a class="btn btn-light rounded-0 px-4 border">Your Cart</a>
+                                                <a href="cart.php" class="btn btn-light rounded-0 px-4 border">Your Cart</a>
                                             </div>
                                             <div class="col-lg-6">
                                                 <a class="btn btn-success rounded-0 px-4">Payment</a>

@@ -647,10 +647,17 @@ header{
     }
   }
 }
+.news-item-list{
+  @extend .news-content;
+}
+.news-item-list:hover{
+  box-shadow: none !important;
+  margin-top:0 !important;
+  transition: all ease-in-out .3s;
+}
 .news-item{
   .news-content{
     color: $news-text-color;
-    z-index: 9999;
     .comt-count{
       margin: 0 0 18px;
     }
@@ -817,6 +824,206 @@ footer{
             border-bottom:1px solid #f5f5f5 ;
           }
       }
+    }
+  }
+}
+.pagination{
+  .page-item {
+    a:hover{
+      color: $color-black;
+    }
+    a:active{
+      color: $color-black;
+    }
+  }
+}
+.news-list-page{
+  color: $color-black;
+  a{
+    color: $color-black;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  a:hover{
+    color: $color-black;
+  }
+  p{
+    color: $color-top;
+  }
+  .tags{
+    a{
+      font-size: 21px;
+      color: $color-top;
+    }
+    a:hover{
+      color: $color-black;
+    }
+  }
+}
+.checkout{
+  color: $color-top;
+  td{
+    vertical-align: middle;
+    padding: 10px;
+    a{
+      color: $color-top;
+    }
+    a:hover{
+      color: $color-black;
+    }
+  }
+}
+.cart-infor{
+  .add-note{
+    .add-note-header{
+      h3{
+        color: $color-black;
+      }
+    }
+    .add-note-content{
+    }
+    .btn-note{
+      border-radius: 0;
+    }
+    .btn-note:hover{
+      color: white;
+      background: $color-green;
+    }
+  }
+}
+.cart-total{
+  color: $color-top;
+  h4{
+    color: $color-black;
+  }
+  .cart-subtotal-title{
+    font-size: 16px;
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05em;
+    padding: 0 0 0 20px;
+  }
+  .cart-subtotal {
+    float: right;
+    line-height: 1em;
+    color: #373737;
+  }
+  .shipping {
+    font-size: 18px;
+    margin: 12px 0 25px;
+    padding: 30px 0 10px 20px;
+    color: #212121;
+    border: 1px solid #dddddd;
+    border-width: 1px 0;
+  }
+  .btn-update-cart{
+    background: $color-black;
+    color: white;
+    border-radius: 0;
+  }
+  .btn-update-cart:hover{
+    background: $color-green;
+  }
+  .btn-checkout{
+    background: #b5b5b5;
+    color: $color-black;
+    border-radius: 0;
+  }
+  .btn-checkout:hover{
+    background: $color-green;
+    color: white;
+  }
+}
+.contact-map{
+  height: 500px;
+}
+.price-box{
+  color: $color-black;
+}
+.contact-main{
+  color: $color-top;
+  ul{
+    list-style: none;
+    padding-left: 0;
+    li{
+      line-height: 30px;
+    }
+  }
+  h3{
+    color: $color-black;
+  }
+  strong{
+    color: $color-black;
+  }
+  a{
+    color: $color-top;
+  }
+  a:hover{
+    color: $color-black;
+  }
+}
+.product-detail-main{
+  color: $color-top;
+  h1{
+    color: $color-black;
+  }
+  .product-detail-price{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #80B435;
+  }
+  .product-detail-desc{
+    border-bottom: 1px solid #dddddd;
+    line-height: 1.7em;
+    color: #888;
+    font-weight: 300;
+    padding: 0 0 30px;
+  }
+  .product-actions{
+    border-top: 1px solid #dddddd;
+    padding: 28px 0 0;
+    .product-quantity{
+      margin-bottom: 22px;
+      color: $color-black;
+      .quantity {
+        width: 70px;
+        padding: 0 2px 0 4px;
+        height: 35px;
+        text-align: center;
+        font-size: 1.4rem;
+        margin-left: 20px;
+      }
+    }
+    .product-add-cart{
+      background: $color-green;
+      color: white;
+      border-radius: 0;
+    }
+    .product-add-cart:hover{
+      background: $color-black;
+    }
+    .wish-list{
+      border: 1px solid #b5b5b5;
+      width: 40px;
+      height: 40px;
+      color: $color-black;
+      text-align: center;
+    }
+    .wish-list:hover{
+      color: pink;
+    }
+    .wish-list:active{
+      color: pink;
+    }
+  }
+  .product-sharing{
+    border-top: 1px solid #dddddd;
+    padding-top: 24px;
+    clear: both;
+    margin-top: 24px;
+    a{
+      color: $color-black;
     }
   }
 }

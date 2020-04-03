@@ -741,7 +741,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -817,7 +816,7 @@
                             </li>
                         </ul>
                         <div class="col-md-2 text-center see-more">
-                            <a class="btn btn-lg">See More</a>
+                            <a href="product.php" class="btn btn-lg">See More</a>
                         </div>
                     </div>
 
