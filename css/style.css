@@ -148,7 +148,7 @@ header .main-menu {
   header .main-menu .navbar .navbar-nav li {
     border-bottom: 4px solid white; }
     header .main-menu .navbar .navbar-nav li a {
-      font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", sans-serif !important;
+      font-family: sans-serif;
       text-transform: uppercase;
       font-size: 1rem;
       font-weight: 400;
