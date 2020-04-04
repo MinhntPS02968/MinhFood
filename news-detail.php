@@ -97,8 +97,8 @@
                                     các tế bào ung thư nhanh gấp 10 000 lần so với Adriamycin (một loại dùng trong liệu pháp
                                     hóa trị chữa ung thư).
                                 </p>
-                                <p class="mb-2 text-dark font-weight-bold">
-                                    <strong>Giúp phát hiện các tế bào ung thư</strong>
+                                <p class="mb-2 text-dark">
+                                    <strong><h5>Giúp phát hiện các tế bào ung thư</h5></strong>
                                 </p>
                                 <p class="mb-2">
                                     Nước ép này có thể tìm thấy và tiêu diệt các tế bào của 12 loại ung thư: ung thư ruột,
@@ -109,8 +109,8 @@
                                 <p class="text-center my-2">
                                     <img src="images/newsdetail.jpg" class="w-100">
                                 </p>
-                                <p class="mb-2 text-dark font-weight-bold">
-                                    <strong>Khả năng phát hiện và phòng ngừa cao</strong>
+                                <p class="mb-2 text-dark">
+                                    <strong><h5>Khả năng phát hiện và phòng ngừa cao<h5></strong>
                                 </p>
                                 <p class="mb-2">
                                     Nước ép này có thể tìm thấy và tiêu diệt các tế bào của 12 loại ung thư: ung thư ruột,
