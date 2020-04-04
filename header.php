@@ -109,13 +109,13 @@
                     </div>
                 </div>
                 <!--search and cart-->
-                <div class="col-md-1 d-flex justify-content-center">
+                <div class="col-md-1 col-1 d-flex justify-content-center">
                     <!-- Button trigger modal -->
                     <a class="navbar-nav" href="javascript:void(0)" data-toggle="modal" data-target="#Search">
                         <i class="fas fa-search"></i>
                     </a>
                 </div>
-                <div class="col-md-1 d-flex justify-content-center">
+                <div class="col-md-1 col-1 d-flex justify-content-center">
                     <div class="navbar-nav dropdown">
                         <div class="cart">
                             <a class="nav-link dropdown-toggle pb-4" href="#" id="CartDropdown" data-toggle="dropdown"

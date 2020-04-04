@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <h3 class="mb-3">TAGS</h3>
-                <div class="row">
+                <div class="row mb-3 pb-2">
                     <div class="col-md-12 tags">
                         <a class="px-1" href="javascript:void(0)">Nike</a>
                         <a class="px-1" href="javascript:void(0)">Accessories</a>
