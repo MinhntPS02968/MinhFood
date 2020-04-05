@@ -11,8 +11,6 @@
     <script src="js/jquery.gallery.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.js"></script>
-
-    <script src="js/bootstrap.bundle.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/custom.js"></script>
     <title>Rau</title>
