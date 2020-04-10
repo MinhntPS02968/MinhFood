@@ -1308,7 +1308,7 @@
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avatar2.jpg" class="">
+                                            <img src="images/avt6.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
@@ -1317,11 +1317,11 @@
                                                 <div class="item-content-desc">
                                                     <p>Táo có vị ngọt, rất thơm. Mua về nấu gà nấu nấm, nhưng mình khui ra ăn liền. Rất ngon. Trái lại to khoẻ. </p>
                                                 </div>
-                                                <p class="author">Nguyễn Thị Kim Lý</p>
+                                                <p class="author">Nguyễn Khương Duy</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avatar3.jpg" class="">
+                                            <img src="images/avt8.jpg" class="">
                                         </div>
                                     </div>
                                 </div>
