@@ -1220,7 +1220,7 @@
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Mình vừa nhận hàng, bao bì sạch sẽ, gọn gàng, date mới luôn, mình mua làm quà, ok rồi mọi người ạ </p>
                                                 </div>
                                                 <p class="author">Mimosa True</p>
                                             </div>
@@ -1233,39 +1233,39 @@
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p> Mới ăn thử thấy cũng ngọt, bùi bùi, khá ngon. Nói chung tốt. Do mới ăn lần đầu nên chưa biết hết được. </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Cayla Nguyen</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar1.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p> Thấy bảo tốt cho sức khoẻ mà lượng protein cao thích hợp với người ăn chay nên mình mua về tập ăn. </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Lê Phước Dư</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar2.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Giao hàng nhanh, hạn sử dụng lâu , cân đủ kí và mẫu mã sản phẩm đẹp. Sẽ ủng hộ tiếp, đánh giá shop 5 sao </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Quỳnh Hương</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar3.jpg" class="">
                                         </div>
                                     </div>
                                 </div>
@@ -1276,52 +1276,52 @@
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Mình rất ưng các loại đậu của shop, hy vọng shop luôn sẵn mặt hàng ổn định, sẽ ủng hộ shop nhiều</p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Đức Hùng</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar4.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Shop cân đủ ký, sản phẩm được đựng trong hũ rất đảm bảo và dễ bảo quản, tươi ngon ăn rất tốt cho sức khỏe </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Pham Thoa</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar5.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Mua về để ăn sáng với sữa. Ăn liền cũng rất ngon và thơm, không có hóa chất. Sẽ mua thêm luôn. Giao hàng nhanh. </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Trần Việt Trung</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar2.jpg" class="">
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Táo có vị ngọt, rất thơm. Mua về nấu gà nấu nấm, nhưng mình khui ra ăn liền. Rất ngon. Trái lại to khoẻ. </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Nguyễn Thị Kim Lý</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar3.jpg" class="">
                                         </div>
                                     </div>
                                 </div>
@@ -1412,7 +1412,7 @@
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p>Mình vừa nhận hàng, bao bì sạch sẽ, gọn gàng, date mới luôn, mình mua làm quà, về hình thức tạm ok rồi mọi người ạ </p>
                                                 </div>
                                                 <p class="author">Mimosa True</p>
                                             </div>
@@ -1431,13 +1431,13 @@
                                         <div class="box-content-item">
                                             <div class="item-content">
                                                 <div class="item-content-desc">
-                                                    <p>Anh đứng đây từ Chiều, nhưng chưa bao giờ thấy ai có ngực đẹp như em, Em ơi!!! em Vú to quá, Cho anh làm quen với </p>
+                                                    <p> Mới ăn thử thấy cũng ngọt, bùi bùi, khá ngon. Nói chung tốt. Do mới ăn lần đầu nên chưa biết hết được. </p>
                                                 </div>
-                                                <p class="author">Mimosa True</p>
+                                                <p class="author">Lê Phước Dư</p>
                                             </div>
                                         </div>
                                         <div class="box-avt">
-                                            <img src="images/avt.png" class="">
+                                            <img src="images/avatar1.jpg.png" class="">
                                         </div>
                                     </div>
                                     <div class="col-sm-1"></div>
